@@ -12,7 +12,6 @@ Material:
     _MODE_OPAQUE _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap:
     IGNOREPROJECTOR: False
@@ -26,7 +25,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 33c69c72febd7d54ca2fd8de02fa3e75, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -54,7 +53,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6bad05031348b404da0442912093881d, type: 3}
+        m_Texture: {fileID: 2800000, guid: ad5bdaa48cb838f4bb9199c9b0fd497a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -109,8 +108,8 @@ Material:
     - _GlossyReflections: 1
     - _LightCuts: 3
     - _LightModel: 1
-    - _LightSmoothness: 0.085
-    - _LightThreshold: 0.491
+    - _LightSmoothness: 0
+    - _LightThreshold: 0.458
     - _LightType: 1
     - _MKEditorShowDetailBehavior: 0
     - _MKEditorShowDissolveBehavior: 0
@@ -137,14 +136,14 @@ Material:
     - _RimSmoothness: 0.5
     - _Roughness: 1
     - _Saturation: 1
-    - _ShadowIntensity: 0.506
-    - _Shininess: 0.064
+    - _ShadowIntensity: 1.54
+    - _Shininess: 0.106
     - _SketchScale: 16
     - _SketchToneMax: 1
     - _SketchToneMin: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpecularIntensity: 0.049
+    - _SpecularIntensity: 0.129
     - _SrcBlend: 1
     - _TranslucentIntensity: 0.5
     - _TranslucentShininess: 0.275

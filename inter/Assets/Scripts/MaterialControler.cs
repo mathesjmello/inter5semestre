@@ -6,20 +6,33 @@ using Substance.Game;
 
 public class MaterialControler : MonoBehaviour
 {
-
-	public SubstanceGraph WaterSubstance;
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	public SubstanceGraph WaterSubstance;
+	private float _value=0;
+	private bool _right;
+	public float Velocity;
+
+	
+	private void Update()
+	{
+		if (!_right)
+		{
+			_value += Time.deltaTime/Velocity;
+			if (_value>1)
+			{
+				_right = true;
+			}
+		}
+		else
+		{
+			_value -= Time.deltaTime/Velocity;
+			if (_value<0)
+			{
+				_right = false;
+			}
+		}
+		WaterSubstance.SetInputFloat("disorder", _value);
+		WaterSubstance.QueueForRender();
 	}
 
-	public void OnSliderChange(float value)
-	{
-		WaterSubstance.SetInputFloat("random",value);
-	}
 }

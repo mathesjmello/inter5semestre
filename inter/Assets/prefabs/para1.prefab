@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33841145645845146}
   - component: {fileID: 23315187879707754}
   m_Layer: 0
-  m_Name: arv6
+  m_Name: para1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
